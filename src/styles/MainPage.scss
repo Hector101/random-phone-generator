@@ -1,0 +1,39 @@
+.main_wrapper {
+  width: 100%;
+  max-width: 90%;
+  background: #ffffff;
+  height: 100vh;
+
+  .logo {
+    fill: rgb(84, 149, 224);
+  }
+
+  .main_container {
+    height: calc(100vh - 8rem);
+
+    .control {
+      .error {
+
+      }
+
+      .input-number {
+        -moz-appearance: textfield;
+        
+        &::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+
+      .generate {
+        background: rgb(84, 149, 224);
+      }
+
+      .generate {
+        &:disabled {
+          background: rgb(163, 197, 236);
+        }
+      }
+    }
+  }
+}

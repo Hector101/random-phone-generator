@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import { Router, Switch, Redirect } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+import routes from './routes';
+import RoutesComponent from './routes/RoutesComponent';
+
+const history = createBrowserHistory();
+
+
+function AppProvider() {
+  return(
+    <div className="w-100 h-100">
+      <Router history={history}>
+        <Switch>
+          {routes.map((route, i) => (
+            <RoutesComponent key={i} {...route} />
+          ))}
+          <Redirect to='/' />
+        </Switch>
+      </Router>
+    </div>
+  )
 }
 
-export default App;
+export default AppProvider;
