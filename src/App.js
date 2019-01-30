@@ -8,7 +8,7 @@ import RoutesComponent from './routes/RoutesComponent';
 const history = createBrowserHistory();
 
 
-function AppProvider() {
+function App() {
   return(
     <div className="w-100 h-100">
       <Router history={history}>
@@ -23,4 +23,4 @@ function AppProvider() {
   )
 }
 
-export default AppProvider;
+export default App;

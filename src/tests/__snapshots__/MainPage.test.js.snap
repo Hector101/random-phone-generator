@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage components mounted successfully 1`] = `
+<Fragment>
+  <Modal>
+    <Result
+      _closeModal={[Function]}
+      data={Array []}
+      number={null}
+      show={false}
+    />
+  </Modal>
+  <div
+    className="w-100 vh-100 bg-light-gray flex justify-center items-center"
+  >
+    <div
+      className="main_wrapper"
+    >
+      <div
+        className="w-100 h4 pa3 flex flex-column justify-center items-center bb b--light-gray"
+      >
+        <Phone.svg
+          className="w3 h3 logo"
+        />
+        <span
+          className="f3 b black-80 mt2"
+        >
+          Phone Number Generator
+        </span>
+      </div>
+      <div
+        className="main_container w-100"
+      >
+        <div
+          className="w-100 pv3 control flex justify-center item-center"
+        >
+          <input
+            className="error input-number outline-0 w4 bw1 ba b--gray"
+            max="10000"
+            min="1"
+            name="number"
+            onChange={[Function]}
+            placeholder="Eg: 15"
+            type="number"
+          />
+          <button
+            className="generate bn outline-0 pointer ml1 white ph2 ttu fw3 f6"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Generate
+          </button>
+          <button
+            className="dn outline-0 pointer ml1 ph2 ttu fw3 f6 ba bw2 b--blue"
+            onClick={[Function]}
+          >
+            View Result
+          </button>
+        </div>
+        <div
+          className="table flex justify-center"
+        >
+          <ReactTable
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            className="-striped -highlight w-50 outline-0"
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Header": "ID",
+                  "accessor": "id",
+                  "className": "flex justify-start fw1",
+                  "headerClassName": "flex justify-start b outline-0",
+                },
+                Object {
+                  "Header": "Phone Numbers",
+                  "accessor": "phoneNumber",
+                  "className": "flex justify-end",
+                  "headerClassName": "flex justify-end b outline-0",
+                },
+              ]
+            }
+            data={Array []}
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPageSize={10}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={false}
+            freezeWhenExpanded={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            indexKey="_index"
+            loading={false}
+            loadingText="Loading..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Next"
+            noDataText="Numbers Not Generated"
+            ofText="of"
+            onFetchData={[Function]}
+            originalKey="_original"
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Page"
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Previous"
+            resizable={true}
+            resolveData={[Function]}
+            rowsText="rows"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            sortable={true}
+            style={Object {}}
+            subRowsKey="_subRows"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

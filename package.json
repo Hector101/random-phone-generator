@@ -3,18 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "enzyme-to-json": "^3.3.5",
     "file-saver": "^2.0.0",
     "history": "^4.7.2",
+    "rc-util": "^4.6.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.1",
-    "react-table": "^6.8.6"
+    "react-table": "^6.8.6",
+    "react-test-renderer": "^16.7.0",
+    "sinon": "^7.2.3"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,5 +38,14 @@
     "react-app-rewire-scss": "^1.0.2",
     "react-app-rewire-svg-react-loader": "github:codebandits/react-app-rewire-svg-react-loader",
     "react-app-rewired": "^1.6.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/serviceWorker.js",
+      "!src/routes/RoutesComponent.js",
+      "!src/helpers/generateNumber.js"
+    ]
   }
 }

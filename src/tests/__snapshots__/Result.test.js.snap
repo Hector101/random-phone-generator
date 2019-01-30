@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result components mounted successfully 1`] = `
+<div
+  className="modal undefined"
+>
+  <div
+    className="modal-content ba b--light-gray"
+  >
+    <span
+      className="close"
+    >
+      ×
+    </span>
+    <div
+      className="overview w-100 flex flex-column justify-start items-center"
+    >
+      <span
+        className="min w-50 tc pa2 mb1 bg-black-10"
+      >
+        <span
+          className="b"
+        >
+          min number:
+        </span>
+         
+        06372676237
+      </span>
+      <span
+        className="max w-50 tc pa2 mb1 bg-black-10"
+      >
+        <span
+          className="b"
+        >
+          max number:
+        </span>
+         
+        06372676237
+      </span>
+      <span
+        className="total w-50 tc pa2 mb2 bg-black-10"
+      >
+        <span
+          className="b"
+        >
+          Amount Generated:
+        </span>
+         
+        <span
+          className="black"
+        />
+      </span>
+      <button
+        className="outline-0 w-30 mt2 pointer b pa2 ttu bw2 ba b--gray fw1 f6"
+        onClick={[Function]}
+      >
+        Save Results
+      </button>
+    </div>
+  </div>
+</div>
+`;
