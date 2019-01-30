@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Hector101/random-phone-generator.svg?branch=master)](https://travis-ci.org/Hector101/random-phone-generator)
+[![Build Status](https://travis-ci.org/Hector101/random-phone-generator.svg?branch=master)](https://travis-ci.org/Hector101/random-phone-generator) [![Coverage Status](https://coveralls.io/repos/github/Hector101/random-phone-generator/badge.svg?branch=master)](https://coveralls.io/github/Hector101/random-phone-generator?branch=master)
 
 
 # Random Phone Generator
