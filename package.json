@@ -34,6 +34,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "react-app-rewire-postcss": "^3.0.2",
     "react-app-rewire-scss": "^1.0.2",
     "react-app-rewire-svg-react-loader": "github:codebandits/react-app-rewire-svg-react-loader",
