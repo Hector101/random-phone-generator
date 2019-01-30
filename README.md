@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Hector101/random-phone-generator.svg?branch=master)](https://travis-ci.org/Hector101/random-phone-generator)
+
+
 # Random Phone Generator
 
 Generate Unique But Random Phone numbers for users
