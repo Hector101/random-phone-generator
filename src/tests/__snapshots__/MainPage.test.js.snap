@@ -93,6 +93,7 @@ exports[`MainPage components mounted successfully 1`] = `
                 "Header": undefined,
                 "Pivot": undefined,
                 "PivotValue": undefined,
+                "Placeholder": undefined,
                 "aggregate": undefined,
                 "className": "",
                 "filterAll": false,
@@ -105,6 +106,7 @@ exports[`MainPage components mounted successfully 1`] = `
                 "getProps": [Function],
                 "headerClassName": "",
                 "headerStyle": Object {},
+                "minResizeWidth": 11,
                 "minWidth": 100,
                 "resizable": undefined,
                 "show": true,
@@ -133,6 +135,7 @@ exports[`MainPage components mounted successfully 1`] = `
             defaultExpanded={Object {}}
             defaultFilterMethod={[Function]}
             defaultFiltered={Array []}
+            defaultPage={0}
             defaultPageSize={10}
             defaultResized={Array []}
             defaultSortDesc={false}
@@ -181,6 +184,7 @@ exports[`MainPage components mounted successfully 1`] = `
             ofText="of"
             onFetchData={[Function]}
             originalKey="_original"
+            pageJumpText="jump to page"
             pageSizeOptions={
               Array [
                 5,
@@ -198,6 +202,7 @@ exports[`MainPage components mounted successfully 1`] = `
             previousText="Previous"
             resizable={true}
             resolveData={[Function]}
+            rowsSelectorText="rows per page"
             rowsText="rows"
             showPageJump={true}
             showPageSizeOptions={true}
