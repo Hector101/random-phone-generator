@@ -5,6 +5,9 @@
 
 **Generate Unique But Random Phone numbers for users**
 
+## Demo
+![](snapshot.gif)
+
 ## Technologies Used
 - **React.js** -- A JavaScript library for building user interfaces
 - **Jest** -- Jest is a delightful JavaScript Testing Framework with a focus on simplicity
