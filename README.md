@@ -3,20 +3,22 @@
 
 # Random Phone Generator
 
-Generate Unique But Random Phone numbers for users
+**Generate Unique But Random Phone numbers for users**
 
 ## Technologies Used
-- React.js
+- **React.js** -- A JavaScript library for building user interfaces
+- **Jest** -- Jest is a delightful JavaScript Testing Framework with a focus on simplicity
 
 ## Prerequisites
 The following should be installed in your machine
 - Node v10.13.0
 
-## How To Install And Run The Application
+## Tessting Application
+Visit the following [Link](https://laughing-sinoussi-4c58ca.netlify.com/) to test application functionalities.
 
+## How To Install And Run The Application
 * Clone this Repo and `cd` into it
 * Install all the dependancies by running the `npm install`
-* Run `npm run migrate` to setup the database tables.
 * Start the application on development mode by running `npm start`
 
 
